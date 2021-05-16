@@ -1,0 +1,59 @@
+body{
+    background-color:#FFA300;
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+
+}
+form{
+    margin-left: 17%;
+}
+label{
+    font-family:'Roboto Condensed' ;
+     padding-right: 20px;
+}
+.one, .checkbox{
+    margin: 05px auto;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+form button{
+    justify-content: center;
+    width: 90px;
+    padding: 2px 5px;
+    border-radius: 20px;
+    margin: 30px 88px auto;
+    border: none;
+    background-color: #FFA300;
+}
+img{
+    margin: 0px auto;
+    padding-left: 85px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+a{
+    color: black;
+    text-decoration:underline 2px dotted red;
+}
+input[type="text"],input[type="password"]{
+    width: 55%;
+    padding: 4px;
+    border: 1px solid rgb(34, 30, 30);
+    border-radius: 12px;
+    background-color: white;
+;
+
+}
